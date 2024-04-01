@@ -15,9 +15,12 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <a className="max-lg:hidden text-zinc-950 font-medium" href="/">
-          Sign in / Explore now
-        </a>
+        <div
+          className="max-lg:hidden flex gap-2 text-zinc-950 font-medium leading-normal wide:mr-24"
+          href="/"
+        >
+          <a>Sign in</a> / <a>Explore now</a>
+        </div>
         <a href="/" className="lg:hidden">
           <img src={hamburger} alt="Collapse" width={25} height={25} />
         </a>

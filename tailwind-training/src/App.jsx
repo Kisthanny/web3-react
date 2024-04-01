@@ -11,7 +11,7 @@ import {
 } from "./sections/index";
 export default function App() {
   return (
-    <main className="relative" id="home">
+    <main className="relative">
       <Nav></Nav>
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
