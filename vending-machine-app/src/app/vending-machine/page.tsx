@@ -6,8 +6,8 @@ export const metadata: Metadata = {
 };
 export default function Page() {
   return (
-    <div className="container">
-        <Navbar appName="Vending Machine"></Navbar>
-    </div>
-  )
+    <main className="relative bg-background-gray">
+      <Navbar />
+    </main>
+  );
 }
