@@ -34,7 +34,7 @@ export default function App() {
       <section className="padding-x sm:py-32 py-16 w-full" id="contact-us">
         <Subscribe />
       </section>
-      <section className="padding bg-black padding-x  padding-t padding-b">
+      <section className="padding bg-black text-white padding-x  padding-t padding-b">
         <Footer />
       </section>
     </main>
