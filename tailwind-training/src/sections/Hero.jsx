@@ -30,7 +30,7 @@ const Hero = () => {
           <br />
           <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>
-        <p className="text-slate-gray font-montserrat text-lg leading-relaxed sm:max-w-sm">
+        <p className="text-slate-gray font-montserrat text-lg leading-relaxed sm:max-w-sm mb-4">
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life
         </p>

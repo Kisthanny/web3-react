@@ -17,7 +17,7 @@ const SuperQuality = () => {
             Our dedication to detail and excellence ensures your satisfaction
           </span>
         </p>
-        <div className="mt-4">
+        <div className="mt-8">
           <Button label="View details" />
         </div>
       </div>

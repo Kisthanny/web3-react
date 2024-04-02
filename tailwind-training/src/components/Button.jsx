@@ -1,4 +1,4 @@
-const Button = ({ label, iconUrl, grey }) => {
+const Button = ({ label, iconUrl, grey, fullWidth }) => {
   console.log({ label, grey });
   return (
     <button
@@ -6,7 +6,7 @@ const Button = ({ label, iconUrl, grey }) => {
         grey
           ? "bg-white border-slate-gray border "
           : "bg-coral-red hover:bg-red-500 "
-      }rounded-full flex items-center justify-center gap-4 px-7 py-4 mt-4`}
+      }${fullWidth?'w-full ' : ''}rounded-full flex items-center justify-center gap-4 px-7 py-4`}
     >
       <span
         className={`${

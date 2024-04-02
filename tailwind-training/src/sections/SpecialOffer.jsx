@@ -13,7 +13,7 @@ const SpecialOffer = () => {
           unbeatable deals. From premier selections to incredible savings, we
           offer unparalleled value that sets us apart.
         </p>
-        <p className="info-text mt-6">
+        <p className="info-text mt-6 mb-4">
           Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
